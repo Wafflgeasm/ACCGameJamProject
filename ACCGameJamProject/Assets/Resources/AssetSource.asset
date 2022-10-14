@@ -14,4 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameObjects:
     menus:
-      mainMenu: {fileID: 5641207115416814378, guid: c353c8d9d2c86f3478d1f2d0ad16dc63, type: 3}
+      mainMenu: {fileID: 3701507192107082372, guid: 030f3b55c76ea7842b5b660f632333bb, type: 3}
+  languageAssets:
+    English: {fileID: 11400000, guid: 8a48078554cece74aa6d170186e5884a, type: 2}
