@@ -4,16 +4,33 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Player Properties:")]
+    public int startingHealth;
     public int movementSpeed;
-    public bool movementEnabled = true;
+    public bool isMovementEnabled = true;
+    private int currentHealth;
+
+
+    [Header("Weapon Properties:")]
+    public float rateOfFire;
+    public float damageOnHit;
+    public float projectileSpeed;
+    public float projectileSize;
+    private bool isFiring;
+
+    [Header("Vacuum Properties:")]
+    public float suckSize;
+    public float suckDuration;
+    private bool isSucking;
+
 
     private Transform flashLightPivot;
+    private GameObject vacuum;
     private Rigidbody2D m_RB;
 
-    private void Start()
+    private void Awake()
     {
-        m_RB = gameObject.GetComponent<Rigidbody2D>();
-        flashLightPivot = transform.Find("Pivot Point");
+        Init();
     }
 
     private void FixedUpdate()
@@ -22,9 +39,26 @@ public class PlayerController : MonoBehaviour
         LookAtMouse();
     }
 
-    public void Movement()
+    //This probably needs to be moved to the game manager, leaving it here for now.
+    public static void TakeDamage(int damageDealt, int healthPoolToApplyDamageTo)
     {
-        if (movementEnabled)
+        healthPoolToApplyDamageTo -= damageDealt;
+    }
+
+
+
+    //internal functions
+    private void Init()
+    {
+        currentHealth = startingHealth;
+        m_RB = gameObject.GetComponent<Rigidbody2D>();
+        flashLightPivot = transform.Find("Pivot Point");
+        vacuum = transform.Find("Vacuum Hitbox").gameObject;
+    }
+
+    private void Movement()
+    {
+        if (isMovementEnabled)
         {
             Vector2 directionalVector = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
             //Instant Accel/Decel using rb, we may want to add smoothing depending on feel but this is normally a good place to start.
@@ -32,7 +66,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void LookAtMouse()
+    private void LookAtMouse()
     {
         Vector2 LookAtTarget = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 playerLocation = transform.position;

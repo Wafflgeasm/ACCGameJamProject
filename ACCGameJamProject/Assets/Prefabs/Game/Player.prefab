@@ -30,7 +30,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8917042780086125473}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &1245500901
 Camera:
@@ -83,6 +83,53 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245500899}
   m_Enabled: 1
+--- !u!1 &944343584985016375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4046992296000770771}
+  - component: {fileID: 4810324204906010017}
+  m_Layer: 0
+  m_Name: Vacuum Hitbox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4046992296000770771
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944343584985016375}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 4.3275, y: 4.3275, z: 4.3275}
+  m_Children: []
+  m_Father: {fileID: 8917042780086125473}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &4810324204906010017
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944343584985016375}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.50000006
 --- !u!1 &8917042778124537161
 GameObject:
   m_ObjectHideFlags: 0
@@ -112,7 +159,7 @@ Transform:
   m_Children:
   - {fileID: 8917042780102329541}
   m_Father: {fileID: 8917042780086125473}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8917042780086125485
 GameObject:
@@ -145,6 +192,7 @@ Transform:
   m_LocalPosition: {x: 0.21417016, y: 0.2115491, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 4046992296000770771}
   - {fileID: 8917042778124537166}
   - {fileID: 1245500902}
   m_Father: {fileID: 0}
@@ -260,8 +308,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299f8f8ca33924d4ab30f3f3cf3f4d01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startingHealth: 0
   movementSpeed: 10
-  movementEnabled: 1
+  isMovementEnabled: 1
+  rateOfFire: 0
+  damageOnHit: 0
+  projectileSpeed: 0
+  projectileSize: 0
+  suckSize: 0
+  suckDuration: 0
 --- !u!1 &8917042780102329540
 GameObject:
   m_ObjectHideFlags: 0
