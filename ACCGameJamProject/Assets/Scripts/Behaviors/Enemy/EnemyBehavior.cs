@@ -39,19 +39,9 @@ public class EnemyBehavior : MonoBehaviour
 
     void Movement()
     {
-        /* Vector2 screenBounds = Camera.main.ScreenToWorldPoint(new Vector3 (Screen.width, Screen.height, Camera.main.transform.position.z));        
-        if (enemyRB.position.x < -screenBounds.x || enemyRB.position.x > screenBounds.x)
-        {
-            moveDir = new Vector2(-moveDir.x, moveDir.y);
-            UpdateAnimator();            
-        }
-        if (enemyRB.position.y < -screenBounds.y || enemyRB.position.y > screenBounds.y)
-        {
-            moveDir = new Vector2(moveDir.x, -moveDir.y);
-            UpdateAnimator();
-        } */
         UpdateMoveDir();
         enemyRB.velocity = moveDir * movementSpeed;
+        enemyRB.transform.up = moveDir;
     }
 
     void UpdateMoveDir()
@@ -60,12 +50,8 @@ public class EnemyBehavior : MonoBehaviour
         {
             moveDir = (playerRB.position - enemyRB.position).normalized;
             Debug.Log("X: " + moveDir.x + " Y: " + moveDir.y);
-        }
-        /* else
-        {
-            moveDir = new Vector2(Random.Range(-1, 1), Random.Range(-1, 1));
-        } */        
-        UpdateAnimator();
+        }       
+        //UpdateAnimator();
     }
 
     void UpdateAnimator()
