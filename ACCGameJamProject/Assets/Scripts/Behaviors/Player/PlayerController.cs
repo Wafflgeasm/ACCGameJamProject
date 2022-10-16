@@ -88,6 +88,5 @@ public class PlayerController : MonoBehaviour
     private void Shoot(){
         GameObject projectileGameObject = GameObject.Instantiate(weapon.Projectile.Prefab, transform.position, Quaternion.Euler(flashLightPivot.transform.up));
         projectileGameObject.GetComponent<ProjectileScript>().Init(flashLightPivot.transform.up, weapon.Projectile);
-        
     }
 }
