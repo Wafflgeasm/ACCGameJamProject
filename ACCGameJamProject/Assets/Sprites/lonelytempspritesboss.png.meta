@@ -1,0 +1,1044 @@
+fileFormatVersion: 2
+guid: c129b07161b943e40ac4e55095264894
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4323777278445264923
+    second: lonelytempspritesboss_0
+  - first:
+      213: -7476689678496976665
+    second: lonelytempspritesboss_1
+  - first:
+      213: 5373962635471835528
+    second: lonelytempspritesboss_2
+  - first:
+      213: -8049842256852402960
+    second: lonelytempspritesboss_3
+  - first:
+      213: 7436126172408454626
+    second: lonelytempspritesboss_4
+  - first:
+      213: 6950802893662809458
+    second: lonelytempspritesboss_5
+  - first:
+      213: -3081788521108156986
+    second: lonelytempspritesboss_6
+  - first:
+      213: 2298794161592992858
+    second: lonelytempspritesboss_7
+  - first:
+      213: -545164114527161468
+    second: lonelytempspritesboss_8
+  - first:
+      213: 4202746586672940161
+    second: lonelytempspritesboss_9
+  - first:
+      213: 6138748597444320761
+    second: lonelytempspritesboss_10
+  - first:
+      213: 7062130430027780121
+    second: lonelytempspritesboss_11
+  - first:
+      213: -469513267202874323
+    second: lonelytempspritesboss_12
+  - first:
+      213: 8584104088903331258
+    second: lonelytempspritesboss_13
+  - first:
+      213: 7078219431008832860
+    second: lonelytempspritesboss_14
+  - first:
+      213: 8192800997684477793
+    second: lonelytempspritesboss_15
+  - first:
+      213: -236196313971491452
+    second: lonelytempspritesboss_16
+  - first:
+      213: 2343659223561039941
+    second: lonelytempspritesboss_17
+  - first:
+      213: 5615631634044036410
+    second: lonelytempspritesboss_18
+  - first:
+      213: 42899475058188116
+    second: lonelytempspritesboss_19
+  - first:
+      213: -6315439455822151315
+    second: lonelytempspritesboss_20
+  - first:
+      213: 7073828520502412797
+    second: lonelytempspritesboss_21
+  - first:
+      213: 8552482521108190365
+    second: lonelytempspritesboss_22
+  - first:
+      213: 8781985820827703171
+    second: lonelytempspritesboss_23
+  - first:
+      213: -3540635329043208384
+    second: lonelytempspritesboss_24
+  - first:
+      213: -8625277603020787328
+    second: lonelytempspritesboss_25
+  - first:
+      213: 8097400925768344397
+    second: lonelytempspritesboss_26
+  - first:
+      213: 111062687419000710
+    second: lonelytempspritesboss_27
+  - first:
+      213: -626567578362387624
+    second: lonelytempspritesboss_28
+  - first:
+      213: 8245250816343592623
+    second: lonelytempspritesboss_29
+  - first:
+      213: -1880159014127228728
+    second: lonelytempspritesboss_30
+  - first:
+      213: -9158448621804437211
+    second: lonelytempspritesboss_31
+  - first:
+      213: -8245528071155299814
+    second: lonelytempspritesboss_32
+  - first:
+      213: 6592214264844330264
+    second: lonelytempspritesboss_33
+  - first:
+      213: -5743617936394850574
+    second: lonelytempspritesboss_34
+  - first:
+      213: -8994016769357723037
+    second: lonelytempspritesboss_35
+  - first:
+      213: -6679753934240217033
+    second: lonelytempspritesboss_36
+  - first:
+      213: -4617498311840391437
+    second: lonelytempspritesboss_37
+  - first:
+      213: 3325015043611319650
+    second: lonelytempspritesboss_38
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lonelytempspritesboss_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1804
+        width: 232
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef5d5e397bdef3c0800000000000000
+      internalID: -4323777278445264923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_1
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1793
+        width: 230
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0bb51c9567d3890800000000000000
+      internalID: -7476689678496976665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_2
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1804
+        width: 209
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88155836b86249a40800000000000000
+      internalID: 5373962635471835528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_3
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1809
+        width: 202
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc32660e17394090800000000000000
+      internalID: -8049842256852402960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_4
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 1799
+        width: 222
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed14630b5d623760800000000000000
+      internalID: 7436126172408454626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_5
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1803
+        width: 214
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d6784a766367060800000000000000
+      internalID: 6950802893662809458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_6
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1563
+        width: 203
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdc8760ba94b35d0800000000000000
+      internalID: -3081788521108156986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_7
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1551
+        width: 209
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a540e754c15f6ef10800000000000000
+      internalID: 2298794161592992858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_8
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1568
+        width: 229
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483715150203f68f0800000000000000
+      internalID: -545164114527161468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_9
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1563
+        width: 230
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18440a3e0c7235a30800000000000000
+      internalID: 4202746586672940161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_10
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1559
+        width: 224
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd981c2357313550800000000000000
+      internalID: 6138748597444320761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_11
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 1556
+        width: 226
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9105847953ab10260800000000000000
+      internalID: 7062130430027780121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_12
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1303
+        width: 201
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d242a0bcb24fb79f0800000000000000
+      internalID: -469513267202874323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_13
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1297
+        width: 214
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdaf06303dd02770800000000000000
+      internalID: 8584104088903331258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_14
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1283
+        width: 213
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d8c8b0213ea3260800000000000000
+      internalID: 7078219431008832860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_15
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1283
+        width: 228
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ff27e991da2b170800000000000000
+      internalID: 8192800997684477793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_16
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1304
+        width: 229
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48df87034bcd8bcf0800000000000000
+      internalID: -236196313971491452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_17
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 1302
+        width: 227
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5407ce685a9568020800000000000000
+      internalID: 2343659223561039941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_18
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1037
+        width: 230
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3524a0e73bbeed40800000000000000
+      internalID: 5615631634044036410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_19
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1026
+        width: 230
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fd4e368d8689000800000000000000
+      internalID: 42899475058188116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_20
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1038
+        width: 209
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d610c3b864d0b58a0800000000000000
+      internalID: -6315439455822151315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_21
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1042
+        width: 202
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5c2968f894b2260800000000000000
+      internalID: 7073828520502412797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_22
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 1032
+        width: 222
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94146a3a8580b670800000000000000
+      internalID: 8552482521108190365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_23
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1035
+        width: 216
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387d3f83391efd970800000000000000
+      internalID: 8781985820827703171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_24
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 796
+        width: 203
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0476e256de22ddec0800000000000000
+      internalID: -3540635329043208384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_25
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 784
+        width: 209
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08130def7bbdc4880800000000000000
+      internalID: -8625277603020787328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_26
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 802
+        width: 229
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4367587d3fbf5070800000000000000
+      internalID: 8097400925768344397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_27
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 795
+        width: 230
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687e86ffce29a8100800000000000000
+      internalID: 111062687419000710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_28
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 793
+        width: 224
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853eeef6b1cfd47f0800000000000000
+      internalID: -626567578362387624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_29
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 789
+        width: 226
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faec828aee30d6270800000000000000
+      internalID: 8245250816343592623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_30
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 535
+        width: 201
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8a2b1965558e5e0800000000000000
+      internalID: -1880159014127228728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_31
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 530
+        width: 214
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5214ea38087a6e080800000000000000
+      internalID: -9158448621804437211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_32
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 517
+        width: 213
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ac64de7eff19d80800000000000000
+      internalID: -8245528071155299814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_33
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 515
+        width: 228
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8152f4362ff3c7b50800000000000000
+      internalID: 6592214264844330264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_34
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 537
+        width: 229
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe6f97fae19a40b0800000000000000
+      internalID: -5743617936394850574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_35
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 535
+        width: 227
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ac68e8665de2380800000000000000
+      internalID: -8994016769357723037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_36
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 339
+        width: 205
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738089a003fbc43a0800000000000000
+      internalID: -6679753934240217033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_37
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 356
+        width: 210
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe99cbffb95befb0800000000000000
+      internalID: -4617498311840391437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempspritesboss_38
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 347
+        width: 180
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d5843c093d42e20800000000000000
+      internalID: 3325015043611319650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

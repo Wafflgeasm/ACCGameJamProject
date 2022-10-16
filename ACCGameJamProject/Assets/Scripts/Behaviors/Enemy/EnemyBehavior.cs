@@ -8,7 +8,20 @@ public class EnemyBehavior : MonoBehaviour
     public int startingHealth;
     public float movementSpeed;
     public bool isMovementEnabled = true;
-    private int currentHealth;
+    public int currentHealth;
+    public const int ATTACKDISTANCE = 10;
+
+    [Header("Weapon Properties:")]
+    public Weapon weapon = new BFLWeapon();
+
+    [Header("Objects to Instantiate")]
+    public GameObject ectoplasm;
+
+    private bool isFiring;
+
+    private float timeSinceLastShot;
+
+
     private Vector2 moveDir;
 
     private Rigidbody2D enemyRB;
@@ -23,6 +36,7 @@ public class EnemyBehavior : MonoBehaviour
     {
         currentHealth = startingHealth;
         enemyRB = GetComponent<Rigidbody2D>();
+        timeSinceLastShot = 0;
         GameObject tempPlayer = GameObject.FindGameObjectWithTag("Player");
         if (tempPlayer)
         {
@@ -34,6 +48,12 @@ public class EnemyBehavior : MonoBehaviour
     void FixedUpdate()
     {
         Movement();
+        if ((playerRB.position - enemyRB.position).magnitude < ATTACKDISTANCE && timeSinceLastShot > weapon.TimeBetweenShots)
+        {
+            Fire();
+            timeSinceLastShot = 0;
+        }
+        timeSinceLastShot += Time.deltaTime;
     }
 
 
@@ -44,14 +64,29 @@ public class EnemyBehavior : MonoBehaviour
         enemyRB.transform.up = moveDir;
     }
 
+    void Fire()
+    {
+        GameObject projectileGameObject = GameObject.Instantiate(weapon.Projectile.Prefab, transform.position, Quaternion.Euler(transform.up));
+        projectileGameObject.GetComponent<ProjectileScript>().Init(transform.up, weapon.Projectile, gameObject.tag);
+    }
+
     void UpdateMoveDir()
     {
         if (playerRB != null)
         {
             moveDir = (playerRB.position - enemyRB.position).normalized;
-            Debug.Log("X: " + moveDir.x + " Y: " + moveDir.y);
         }       
         //UpdateAnimator();
+    }
+
+    public void TakeDamage(int _dmgAmount)
+    {
+        currentHealth -= _dmgAmount;
+        if (currentHealth <= 0)
+        {
+            Instantiate(ectoplasm, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
     }
 
     void UpdateAnimator()

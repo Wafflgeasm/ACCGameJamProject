@@ -412,7 +412,7 @@ TextureImporter:
     second: lonelytempsprites1_135
   - first:
       213: -4176840040187696824
-    second: lonelytempsprites1_136
+    second: ectoplasm
   - first:
       213: -191391034842283881
     second: lonelytempsprites1_137
@@ -3190,7 +3190,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lonelytempsprites1_136
+      name: ectoplasm
       rect:
         serializedVersion: 2
         x: 916
