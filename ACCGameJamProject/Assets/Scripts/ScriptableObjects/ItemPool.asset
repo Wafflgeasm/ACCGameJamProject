@@ -14,12 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemPool:
     MerchantType:
-    - Items:
-      - {fileID: 0}
-      - {fileID: 0}
-    - Items:
-      - {fileID: 0}
-      - {fileID: 0}
-    - Items:
-      - {fileID: 0}
-      - {fileID: 0}
+    - Items: []
+    - Items: []
+    - Items: []
