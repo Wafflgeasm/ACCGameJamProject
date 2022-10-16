@@ -22,6 +22,11 @@ public class AssetSource : ScriptableObject {
         public struct Menus{
             public GameObject mainMenu;
         }
+        public Projectiles projectiles;
+        [System.Serializable]
+        public struct Projectiles{
+            public GameObject BFL;
+        }
     }
     [System.Serializable]
     public struct LanguageAssets{
