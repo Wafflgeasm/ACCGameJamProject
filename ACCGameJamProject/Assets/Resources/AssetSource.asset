@@ -15,5 +15,7 @@ MonoBehaviour:
   gameObjects:
     menus:
       mainMenu: {fileID: 3701507192107082372, guid: 030f3b55c76ea7842b5b660f632333bb, type: 3}
+    projectiles:
+      BFL: {fileID: 5550728424517603886, guid: 4ccb7d9b49b103e478eef1c461c7f5ab, type: 3}
   languageAssets:
     English: {fileID: 11400000, guid: 8a48078554cece74aa6d170186e5884a, type: 2}
