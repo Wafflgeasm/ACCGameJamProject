@@ -1,0 +1,38 @@
+Sound Effects
+
+-ghost sfx-
+ghostHurt1.mp3
+ghostHurt2.mp3
+ghostHurt3.mp3
+ghostHurt4.mp3
+ghostDeath1.mp3
+ghostDeath2.mp3
+ghostDeath3.mp3
+ghostDeath4.mp3
+ghostIdle1.mp3
+ghostIdle2.mp3
+ghostIdle3.mp3
+ghostIdle4.mp3
+
+
+-player sfx-
+playerHurt1.mp3
+playerHurt2.mp3
+playerHurt3.mp3
+playerDead.mp3
+
+-generic npc sfx-
+npcGrumble1.mp3
+npcGrumble2.mp3
+npcGrumble3.mp3
+npcDisagree1.mp3
+npcDisagree2.mp3
+npcAgree1.mp3
+npcAgree2.mp3
+
+-old lady sfx-
+shopkeepChuckle.mp3
+shopkeepAgree.mp3
+shopkeepDisagree.mp3
+shopkeepQuestion.mp3
+shopkeepPurchased.mp3
