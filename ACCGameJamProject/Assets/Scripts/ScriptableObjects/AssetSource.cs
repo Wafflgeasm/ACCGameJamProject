@@ -16,8 +16,10 @@ public class AssetSource : ScriptableObject {
     public GameObjects gameObjects;
     public AudioClips audioClips;
     public LanguageAssets languageAssets;
+
     [System.Serializable]
     public struct GameObjects{
+        public GameObject ectoplasm;
         public Menus menus;
         [System.Serializable]
         public struct Menus{
@@ -27,6 +29,12 @@ public class AssetSource : ScriptableObject {
         [System.Serializable]
         public struct Projectiles{
             public GameObject BFL;
+        }
+        public Enemies enemies;
+        [System.Serializable]
+        public struct Enemies{
+            public GameObject ghost;
+            public GameObject sampleEnemy;
         }
     }
 
@@ -54,8 +62,25 @@ public class AssetSource : ScriptableObject {
         public AudioClip OldLadyQuestionSFX;
         public AudioClip OldLadyPurchasedSFX;
     }
+
     [System.Serializable]
     public struct LanguageAssets{
         public LanguageAsset English;
+    }
+    public AudioClips audioClips;
+    [System.Serializable]
+    public struct AudioClips{
+        public AudioClip sampleClip;
+        public Music music;
+        [System.Serializable]
+        public struct Music{
+
+        }
+        public SFX sfx;
+        [System.Serializable]
+        public struct SFX{
+
+        }
+
     }
 }

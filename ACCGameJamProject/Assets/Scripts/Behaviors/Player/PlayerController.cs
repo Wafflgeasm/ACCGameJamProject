@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public static PlayerController instance;
     [Header("Player Properties:")]
     public int startingHealth;
     public int movementSpeed;
@@ -28,7 +27,6 @@ public class PlayerController : MonoBehaviour
     private float timeSinceLastShot;
     private void Awake()
     {
-        instance = this;
         Init();
     }
 
@@ -49,12 +47,6 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.Space)){
             isFiring = false;
         }
-    }
-
-    //This probably needs to be moved to the game manager, leaving it here for now.
-    public static void TakeDamage(int damageDealt, int healthPoolToApplyDamageTo)
-    {
-        healthPoolToApplyDamageTo -= damageDealt;
     }
 
 
@@ -87,6 +79,6 @@ public class PlayerController : MonoBehaviour
     }
     private void Shoot(){
         GameObject projectileGameObject = GameObject.Instantiate(weapon.Projectile.Prefab, transform.position, Quaternion.Euler(flashLightPivot.transform.up));
-        projectileGameObject.GetComponent<ProjectileScript>().Init(flashLightPivot.transform.up, weapon.Projectile);
+        projectileGameObject.GetComponent<ProjectileScript>().Init(flashLightPivot.transform.up, weapon.Projectile, gameObject.tag);
     }
 }

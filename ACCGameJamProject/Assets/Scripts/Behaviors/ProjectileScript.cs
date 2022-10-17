@@ -11,9 +11,12 @@ public class ProjectileScript : MonoBehaviour
     [SerializeField]
     private Rigidbody2D m_RB;
     private float timeSinceCreated;
-    public void Init(Vector2 initialDirection, Projectile projectileType){
+    //The tag of the object that fired the projectile. Used to prevent the projectile from destorying the object that fired it.
+    private string entityFiring;
+    public void Init(Vector2 initialDirection, Projectile projectileType, string entityFiring){
         direction = initialDirection;
         this.projectileType = projectileType;
+        this.entityFiring = entityFiring;
         m_RB = GetComponent<Rigidbody2D>();
         timeSinceCreated = 0f;
     }
@@ -31,7 +34,25 @@ public class ProjectileScript : MonoBehaviour
         if (other.gameObject.tag == "Wall"){
             DestroyProjectile();
         }
+        if (other.gameObject.CompareTag("Enemy") && entityFiring != "Enemy")
+        {
+            EnemyBehavior eb = other.gameObject.GetComponent<EnemyBehavior>();
+            if (eb != null)
+            {
+                eb.enemy.TakeDamage(projectileType.damage);
+            }
+            DestroyProjectile();
+        }
+
+        if (other.gameObject.CompareTag("Player") && entityFiring != "Player")
+        {
+            //Insert code here to damage player
+            DestroyProjectile();
+        }
+        
     }
+
+
     private void DestroyProjectile(){
         projectileType.OnDestroy();
         GameObject.Destroy(gameObject);
