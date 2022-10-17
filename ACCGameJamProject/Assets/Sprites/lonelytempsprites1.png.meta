@@ -1,0 +1,4383 @@
+fileFormatVersion: 2
+guid: 443fe236eca77f341a5b91e23e650da3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6486172915656253386
+    second: lonelytempsprites1_0
+  - first:
+      213: 8694090475451041776
+    second: lonelytempsprites1_1
+  - first:
+      213: -7018326043902601935
+    second: lonelytempsprites1_2
+  - first:
+      213: 1924004181098955694
+    second: lonelytempsprites1_3
+  - first:
+      213: 6194987255135929812
+    second: lonelytempsprites1_4
+  - first:
+      213: 7635487045139268053
+    second: lonelytempsprites1_5
+  - first:
+      213: 296588271665641672
+    second: lonelytempsprites1_6
+  - first:
+      213: -4122026591517888164
+    second: lonelytempsprites1_7
+  - first:
+      213: 2476509531416339534
+    second: lonelytempsprites1_8
+  - first:
+      213: -837147302518588449
+    second: lonelytempsprites1_9
+  - first:
+      213: 2046573100926832662
+    second: lonelytempsprites1_10
+  - first:
+      213: -3911201342367803992
+    second: lonelytempsprites1_11
+  - first:
+      213: 585505662735833049
+    second: lonelytempsprites1_12
+  - first:
+      213: -7599233148909485323
+    second: lonelytempsprites1_13
+  - first:
+      213: -5913995132611556613
+    second: lonelytempsprites1_14
+  - first:
+      213: 2342288887761913555
+    second: lonelytempsprites1_15
+  - first:
+      213: 1274180041423669910
+    second: lonelytempsprites1_16
+  - first:
+      213: -931694706091778049
+    second: lonelytempsprites1_17
+  - first:
+      213: -6335348971366671593
+    second: lonelytempsprites1_18
+  - first:
+      213: 6574225806756443550
+    second: lonelytempsprites1_19
+  - first:
+      213: 8069241635813572107
+    second: lonelytempsprites1_20
+  - first:
+      213: 3581031203617471675
+    second: lonelytempsprites1_21
+  - first:
+      213: 844152020247374554
+    second: lonelytempsprites1_22
+  - first:
+      213: -4905767981890469862
+    second: lonelytempsprites1_23
+  - first:
+      213: -4744941349739196551
+    second: lonelytempsprites1_24
+  - first:
+      213: 1511100752342370284
+    second: lonelytempsprites1_25
+  - first:
+      213: -1627307812371541298
+    second: lonelytempsprites1_26
+  - first:
+      213: -6882872466070035240
+    second: lonelytempsprites1_27
+  - first:
+      213: -8779169355553750531
+    second: lonelytempsprites1_28
+  - first:
+      213: -54196733950046004
+    second: lonelytempsprites1_29
+  - first:
+      213: 5283489116414311405
+    second: lonelytempsprites1_30
+  - first:
+      213: 2951138008747420205
+    second: lonelytempsprites1_31
+  - first:
+      213: 242194562212686382
+    second: lonelytempsprites1_32
+  - first:
+      213: -4321897109471098539
+    second: lonelytempsprites1_33
+  - first:
+      213: -7059197012002013577
+    second: lonelytempsprites1_34
+  - first:
+      213: -1603004736397727664
+    second: lonelytempsprites1_35
+  - first:
+      213: 6177209574929236359
+    second: lonelytempsprites1_36
+  - first:
+      213: -6743201221057615755
+    second: lonelytempsprites1_37
+  - first:
+      213: 8090323086834408773
+    second: lonelytempsprites1_38
+  - first:
+      213: 6659866416391938629
+    second: lonelytempsprites1_39
+  - first:
+      213: -7726803777537171602
+    second: lonelytempsprites1_40
+  - first:
+      213: -3622320547504208125
+    second: lonelytempsprites1_41
+  - first:
+      213: 1236482022105390892
+    second: lonelytempsprites1_42
+  - first:
+      213: 4975380128695804352
+    second: lonelytempsprites1_43
+  - first:
+      213: 3999947708169679549
+    second: lonelytempsprites1_44
+  - first:
+      213: -8069620929913557736
+    second: lonelytempsprites1_45
+  - first:
+      213: -2813738510899435212
+    second: lonelytempsprites1_46
+  - first:
+      213: -8212695764508773238
+    second: lonelytempsprites1_47
+  - first:
+      213: -396077265988516597
+    second: lonelytempsprites1_48
+  - first:
+      213: 6185077991469907549
+    second: lonelytempsprites1_49
+  - first:
+      213: 2063560965528942988
+    second: lonelytempsprites1_50
+  - first:
+      213: 1952520735342503460
+    second: lonelytempsprites1_51
+  - first:
+      213: 6685831170141478234
+    second: lonelytempsprites1_52
+  - first:
+      213: 4371497126176095092
+    second: lonelytempsprites1_53
+  - first:
+      213: 5472008418261647955
+    second: lonelytempsprites1_54
+  - first:
+      213: -2204005878414188935
+    second: lonelytempsprites1_55
+  - first:
+      213: -3014375072819564722
+    second: lonelytempsprites1_56
+  - first:
+      213: 3560092881834928400
+    second: lonelytempsprites1_57
+  - first:
+      213: 2043083824638318538
+    second: lonelytempsprites1_58
+  - first:
+      213: 6597462379153350288
+    second: lonelytempsprites1_59
+  - first:
+      213: -374388735569415967
+    second: lonelytempsprites1_60
+  - first:
+      213: -5380735135637121839
+    second: lonelytempsprites1_61
+  - first:
+      213: -7457032042218649576
+    second: lonelytempsprites1_62
+  - first:
+      213: -434066684849881598
+    second: lonelytempsprites1_63
+  - first:
+      213: 5058269058169173680
+    second: lonelytempsprites1_64
+  - first:
+      213: -4158752143489572649
+    second: lonelytempsprites1_65
+  - first:
+      213: -5384424632378461337
+    second: lonelytempsprites1_66
+  - first:
+      213: -7993556930498101224
+    second: lonelytempsprites1_67
+  - first:
+      213: 7888647073571279689
+    second: lonelytempsprites1_68
+  - first:
+      213: -3912178680127044207
+    second: lonelytempsprites1_69
+  - first:
+      213: -5933920594819978579
+    second: lonelytempsprites1_70
+  - first:
+      213: -3175144175504768917
+    second: lonelytempsprites1_71
+  - first:
+      213: 2336049844931261570
+    second: lonelytempsprites1_72
+  - first:
+      213: 3569486026919451365
+    second: lonelytempsprites1_73
+  - first:
+      213: 6379787939649796704
+    second: lonelytempsprites1_74
+  - first:
+      213: 5648279226404279668
+    second: lonelytempsprites1_75
+  - first:
+      213: 5693515127401780700
+    second: lonelytempsprites1_76
+  - first:
+      213: -7399621032301501328
+    second: lonelytempsprites1_77
+  - first:
+      213: -7936363334144400550
+    second: lonelytempsprites1_78
+  - first:
+      213: -1196453033129541247
+    second: lonelytempsprites1_79
+  - first:
+      213: 6379640152891131675
+    second: lonelytempsprites1_80
+  - first:
+      213: 6648193335975250940
+    second: lonelytempsprites1_81
+  - first:
+      213: 4713586683864259992
+    second: lonelytempsprites1_82
+  - first:
+      213: -6566876109702542323
+    second: lonelytempsprites1_83
+  - first:
+      213: 6506270437810367530
+    second: lonelytempsprites1_84
+  - first:
+      213: -967564905268672565
+    second: lonelytempsprites1_85
+  - first:
+      213: 8296870879727062178
+    second: lonelytempsprites1_86
+  - first:
+      213: 4848025361631517816
+    second: lonelytempsprites1_87
+  - first:
+      213: -1804426670301325909
+    second: lonelytempsprites1_88
+  - first:
+      213: 8976315614094358975
+    second: lonelytempsprites1_89
+  - first:
+      213: -2799869496824351659
+    second: lonelytempsprites1_90
+  - first:
+      213: -755759279898824366
+    second: lonelytempsprites1_91
+  - first:
+      213: 7339109833466898556
+    second: lonelytempsprites1_92
+  - first:
+      213: -1588122528471057143
+    second: lonelytempsprites1_93
+  - first:
+      213: 9125416494258071542
+    second: lonelytempsprites1_94
+  - first:
+      213: 1424686054454586269
+    second: lonelytempsprites1_95
+  - first:
+      213: -3090204335379921546
+    second: lonelytempsprites1_96
+  - first:
+      213: 4134742545989207742
+    second: lonelytempsprites1_97
+  - first:
+      213: 7721334210441624545
+    second: lonelytempsprites1_98
+  - first:
+      213: -4003644807723929338
+    second: lonelytempsprites1_99
+  - first:
+      213: -8379550781838421642
+    second: lonelytempsprites1_100
+  - first:
+      213: -3926736345975241937
+    second: lonelytempsprites1_101
+  - first:
+      213: 124811398669809561
+    second: lonelytempsprites1_102
+  - first:
+      213: -5741620225471354133
+    second: lonelytempsprites1_103
+  - first:
+      213: -2819662535532324491
+    second: lonelytempsprites1_104
+  - first:
+      213: -1032216287283792376
+    second: lonelytempsprites1_105
+  - first:
+      213: 8085600763372300159
+    second: lonelytempsprites1_106
+  - first:
+      213: -5932964790980755227
+    second: lonelytempsprites1_107
+  - first:
+      213: -4814696503087432287
+    second: lonelytempsprites1_108
+  - first:
+      213: 4316582536796870863
+    second: lonelytempsprites1_109
+  - first:
+      213: 8596220885663154900
+    second: lonelytempsprites1_110
+  - first:
+      213: -7993202452805554927
+    second: lonelytempsprites1_111
+  - first:
+      213: 2916882373709520851
+    second: lonelytempsprites1_112
+  - first:
+      213: -6661800813829954540
+    second: lonelytempsprites1_113
+  - first:
+      213: 7862271815541554927
+    second: lonelytempsprites1_114
+  - first:
+      213: 2785522659516475512
+    second: lonelytempsprites1_115
+  - first:
+      213: -2422066430294724752
+    second: lonelytempsprites1_116
+  - first:
+      213: -1300484167099183222
+    second: lonelytempsprites1_117
+  - first:
+      213: -3947048115458415397
+    second: lonelytempsprites1_118
+  - first:
+      213: 2541036283246692993
+    second: lonelytempsprites1_119
+  - first:
+      213: -8777417457058193163
+    second: lonelytempsprites1_120
+  - first:
+      213: -8513426369110570056
+    second: lonelytempsprites1_121
+  - first:
+      213: -3336407265374534510
+    second: lonelytempsprites1_122
+  - first:
+      213: -5226609910395851791
+    second: lonelytempsprites1_123
+  - first:
+      213: -3000149220903081856
+    second: lonelytempsprites1_124
+  - first:
+      213: -1096700035130039741
+    second: lonelytempsprites1_125
+  - first:
+      213: 4683107408835137963
+    second: lonelytempsprites1_126
+  - first:
+      213: 5364396830906007256
+    second: lonelytempsprites1_127
+  - first:
+      213: -2926113433603435417
+    second: lonelytempsprites1_128
+  - first:
+      213: 4972031034841196226
+    second: lonelytempsprites1_129
+  - first:
+      213: -3659508159574224638
+    second: lonelytempsprites1_130
+  - first:
+      213: 2930276923386206918
+    second: lonelytempsprites1_131
+  - first:
+      213: 8752501616090376945
+    second: lonelytempsprites1_132
+  - first:
+      213: -3681533711542869862
+    second: lonelytempsprites1_133
+  - first:
+      213: -1750081452028216333
+    second: lonelytempsprites1_134
+  - first:
+      213: -9013133404263822117
+    second: lonelytempsprites1_135
+  - first:
+      213: -4176840040187696824
+    second: ectoplasm
+  - first:
+      213: -191391034842283881
+    second: lonelytempsprites1_137
+  - first:
+      213: -295868436006134752
+    second: lonelytempsprites1_138
+  - first:
+      213: 7377724881266760361
+    second: lonelytempsprites1_139
+  - first:
+      213: 7565210438877851075
+    second: lonelytempsprites1_140
+  - first:
+      213: -281462263665700042
+    second: lonelytempsprites1_141
+  - first:
+      213: 5434314089811858518
+    second: lonelytempsprites1_142
+  - first:
+      213: -1918645020275170219
+    second: lonelytempsprites1_143
+  - first:
+      213: 6765253898461436339
+    second: lonelytempsprites1_144
+  - first:
+      213: 1829040849774656011
+    second: lonelytempsprites1_145
+  - first:
+      213: -2493104158475762291
+    second: lonelytempsprites1_146
+  - first:
+      213: -505428927272769617
+    second: lonelytempsprites1_147
+  - first:
+      213: -4463683221831726451
+    second: lonelytempsprites1_148
+  - first:
+      213: -702588109418964078
+    second: lonelytempsprites1_149
+  - first:
+      213: -1365733640945263461
+    second: lonelytempsprites1_150
+  - first:
+      213: -6631290274754006730
+    second: lonelytempsprites1_151
+  - first:
+      213: 5037085190773053810
+    second: lonelytempsprites1_152
+  - first:
+      213: 5130865292002470945
+    second: lonelytempsprites1_153
+  - first:
+      213: 6573513295156786442
+    second: lonelytempsprites1_154
+  - first:
+      213: -4853989874387648207
+    second: lonelytempsprites1_155
+  - first:
+      213: -5666978614888339894
+    second: lonelytempsprites1_156
+  - first:
+      213: -5222620763849464317
+    second: lonelytempsprites1_157
+  - first:
+      213: -3364572454596985910
+    second: lonelytempsprites1_158
+  - first:
+      213: -1767673435008980057
+    second: lonelytempsprites1_159
+  - first:
+      213: 7152364640195474790
+    second: lonelytempsprites1_160
+  - first:
+      213: 8347189456802779637
+    second: lonelytempsprites1_161
+  - first:
+      213: -4601311537529985759
+    second: lonelytempsprites1_162
+  - first:
+      213: -3465160566442984348
+    second: lonelytempsprites1_163
+  - first:
+      213: -4950726308461859217
+    second: lonelytempsprites1_164
+  - first:
+      213: -798376827797688080
+    second: lonelytempsprites1_165
+  - first:
+      213: -3682161494003242949
+    second: lonelytempsprites1_166
+  - first:
+      213: -5985205472571232308
+    second: lonelytempsprites1_167
+  - first:
+      213: -8867078642059446783
+    second: lonelytempsprites1_168
+  - first:
+      213: 2352303613842144651
+    second: lonelytempsprites1_169
+  - first:
+      213: 316536270287695367
+    second: lonelytempsprites1_170
+  - first:
+      213: -4830079176374232459
+    second: lonelytempsprites1_171
+  - first:
+      213: 8093188821857030354
+    second: lonelytempsprites1_172
+  - first:
+      213: -3785818477981052133
+    second: lonelytempsprites1_173
+  - first:
+      213: 5390270704560291971
+    second: lonelytempsprites1_174
+  - first:
+      213: -1405823969963047135
+    second: lonelytempsprites1_175
+  - first:
+      213: -1522856441031221356
+    second: lonelytempsprites1_176
+  - first:
+      213: 3609155107684613296
+    second: lonelytempsprites1_177
+  - first:
+      213: -6084768152803671118
+    second: lonelytempsprites1_178
+  - first:
+      213: -3450303170591064026
+    second: lonelytempsprites1_179
+  - first:
+      213: 1461085205569841185
+    second: lonelytempsprites1_180
+  - first:
+      213: -7803383775857331069
+    second: lonelytempsprites1_181
+  - first:
+      213: -5922331173987123229
+    second: lonelytempsprites1_182
+  - first:
+      213: 2123442816035608193
+    second: lonelytempsprites1_183
+  - first:
+      213: 3609402756506827135
+    second: lonelytempsprites1_184
+  - first:
+      213: -219590771487787748
+    second: lonelytempsprites1_185
+  - first:
+      213: 2769576421826622284
+    second: lonelytempsprites1_186
+  - first:
+      213: -7905309033368469054
+    second: lonelytempsprites1_187
+  - first:
+      213: -2547882193709574410
+    second: lonelytempsprites1_188
+  - first:
+      213: -6044724100407221075
+    second: lonelytempsprites1_189
+  - first:
+      213: 6892126445618199513
+    second: lonelytempsprites1_190
+  - first:
+      213: -2064571050819651672
+    second: lonelytempsprites1_191
+  - first:
+      213: -1196965827076658853
+    second: lonelytempsprites1_192
+  - first:
+      213: -6194594180490869109
+    second: lonelytempsprites1_193
+  - first:
+      213: -1704901832621849361
+    second: lonelytempsprites1_194
+  - first:
+      213: -5276478068168011242
+    second: lonelytempsprites1_195
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lonelytempsprites1_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1934
+        width: 40
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf537dc6e3830a50800000000000000
+      internalID: 6486172915656253386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_1
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1933
+        width: 53
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7cd52693d97a870800000000000000
+      internalID: 8694090475451041776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_2
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1939
+        width: 64
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1351053d5a5e99e90800000000000000
+      internalID: -7018326043902601935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_3
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1937
+        width: 79
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea305c0eb9f63ba10800000000000000
+      internalID: 1924004181098955694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_4
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1933
+        width: 52
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5037a061409f550800000000000000
+      internalID: 6194987255135929812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_5
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1929
+        width: 46
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d18f945303b6f960800000000000000
+      internalID: 7635487045139268053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_6
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1932
+        width: 86
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c87d213671bd1400800000000000000
+      internalID: 296588271665641672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_7
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1927
+        width: 93
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51bcd987ae9bc6c0800000000000000
+      internalID: -4122026591517888164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_8
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1927
+        width: 82
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44a0f63c445e5220800000000000000
+      internalID: 2476509531416339534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_9
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 1930
+        width: 79
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbf3b8b6fad164f0800000000000000
+      internalID: -837147302518588449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_10
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 1935
+        width: 83
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6101d9f5463e66c10800000000000000
+      internalID: 2046573100926832662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_11
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 1931
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5d22ff91f98b9c0800000000000000
+      internalID: -3911201342367803992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1806
+        width: 49
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d759515c42202800800000000000000
+      internalID: 585505662735833049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_13
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1810
+        width: 53
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f280e9a6b91a8690800000000000000
+      internalID: -7599233148909485323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_15
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1841
+        width: 70
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6c46c555b718020800000000000000
+      internalID: 2342288887761913555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_16
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1804
+        width: 53
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a43fc2ffbcea110800000000000000
+      internalID: 1274180041423669910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_17
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1804
+        width: 59
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff9944e994f113f0800000000000000
+      internalID: -931694706091778049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_18
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1809
+        width: 81
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b9d893da15418a0800000000000000
+      internalID: -6335348971366671593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_19
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1809
+        width: 89
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e957cec1a875c3b50800000000000000
+      internalID: 6574225806756443550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_20
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1855
+        width: 110
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0eb57dd384bbff60800000000000000
+      internalID: 8069241635813572107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_21
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 1809
+        width: 96
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc753518e062b130800000000000000
+      internalID: 3581031203617471675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_22
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1807
+        width: 100
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adae5473ac707bb00800000000000000
+      internalID: 844152020247374554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_23
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1799
+        width: 113
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a100fe823063bebb0800000000000000
+      internalID: -4905767981890469862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_27
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1681
+        width: 65
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4249985ff1b70a0800000000000000
+      internalID: -6882872466070035240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_28
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1676
+        width: 62
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df149333cff1a2680800000000000000
+      internalID: -8779169355553750531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_29
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1671
+        width: 88
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0dbec8b547f3ff0800000000000000
+      internalID: -54196733950046004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_30
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1675
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb7486bb59b25940800000000000000
+      internalID: 5283489116414311405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_31
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1679
+        width: 56
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a2b86126c84f820800000000000000
+      internalID: 2951138008747420205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_32
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1681
+        width: 47
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ae73fcba27c5300800000000000000
+      internalID: 242194562212686382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_33
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1715
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55900323a798504c0800000000000000
+      internalID: -4321897109471098539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_34
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1687
+        width: 84
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77efe1408b1b80e90800000000000000
+      internalID: -7059197012002013577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_35
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 1695
+        width: 91
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058aeb17fabf0c9e0800000000000000
+      internalID: -1603004736397727664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_36
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1686
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7818cc0516bd9b550800000000000000
+      internalID: 6177209574929236359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_37
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 1689
+        width: 79
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57861e967365b62a0800000000000000
+      internalID: -6743201221057615755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_38
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1686
+        width: 99
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d18ecabf9964070800000000000000
+      internalID: 8090323086834408773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_39
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1690
+        width: 98
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542689068399c6c50800000000000000
+      internalID: 6659866416391938629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_40
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1546
+        width: 49
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f10c617e0e4c490800000000000000
+      internalID: -7726803777537171602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_41
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1550
+        width: 62
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307c96767aeeabdc0800000000000000
+      internalID: -3622320547504208125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_42
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1541
+        width: 66
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f9fb219ddd82110800000000000000
+      internalID: 1236482022105390892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_43
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1544
+        width: 68
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c16379cdd91c0540800000000000000
+      internalID: 4975380128695804352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_44
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1546
+        width: 54
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db277997f3ba28730800000000000000
+      internalID: 3999947708169679549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_45
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1552
+        width: 55
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81de178d482f20090800000000000000
+      internalID: -8069620929913557736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_46
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1552
+        width: 95
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439a00f6bb793f8d0800000000000000
+      internalID: -2813738510899435212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_47
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1547
+        width: 97
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84791407b4a60e80800000000000000
+      internalID: -8212695764508773238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_48
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1547
+        width: 83
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05852933d9d08af0800000000000000
+      internalID: -396077265988516597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_49
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1550
+        width: 78
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e76adc9afc5d550800000000000000
+      internalID: 6185077991469907549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_50
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 1555
+        width: 94
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89f6b2d3cd33ac10800000000000000
+      internalID: 2063560965528942988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_51
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 1551
+        width: 93
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426acae834fb81b10800000000000000
+      internalID: 1952520735342503460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_52
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1419
+        width: 52
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d5484b608d8cc50800000000000000
+      internalID: 6685831170141478234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_53
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1418
+        width: 49
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47bfd5e997daaac30800000000000000
+      internalID: 4371497126176095092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_54
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1465
+        width: 87
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352ce6a1aaa70fb40800000000000000
+      internalID: 5472008418261647955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_56
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1421
+        width: 56
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f2cc497d9ca26d0800000000000000
+      internalID: -3014375072819564722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_57
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1417
+        width: 46
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019ea252d9df76130800000000000000
+      internalID: 3560092881834928400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_58
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1429
+        width: 89
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7d9ede9ed7a5c10800000000000000
+      internalID: 2043083824638318538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_59
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1429
+        width: 100
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e50783415ee8b50800000000000000
+      internalID: 6597462379153350288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_60
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1454
+        width: 113
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e03a78bd67edcaf0800000000000000
+      internalID: -374388735569415967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_61
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 1429
+        width: 95
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4d2e907e9c355b0800000000000000
+      internalID: -5380735135637121839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_62
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1427
+        width: 102
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8180adcdddc438890800000000000000
+      internalID: -7457032042218649576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_63
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1298
+        width: 52
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ef0b066a2e9f9f0800000000000000
+      internalID: -434066684849881598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_64
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1295
+        width: 62
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6f58698e4923640800000000000000
+      internalID: 5058269058169173680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_65
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1295
+        width: 68
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0e862a5f42946c0800000000000000
+      internalID: -4158752143489572649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_66
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1283
+        width: 67
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763f733235ea645b0800000000000000
+      internalID: -5384424632378461337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_67
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1293
+        width: 68
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8108cc9c25e211190800000000000000
+      internalID: -7993556930498101224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_68
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1298
+        width: 73
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94314a2b7ba1a7d60800000000000000
+      internalID: 7888647073571279689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_69
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1301
+        width: 86
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195cb21d73625b9c0800000000000000
+      internalID: -3912178680127044207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_70
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1311
+        width: 95
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa616488aa76ada0800000000000000
+      internalID: -5933920594819978579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_71
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1298
+        width: 89
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60436ce13f9fe3d0800000000000000
+      internalID: -3175144175504768917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_72
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 1303
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284fbb005f05b6020800000000000000
+      internalID: 2336049844931261570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_73
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 1306
+        width: 99
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea114921ac598130800000000000000
+      internalID: 3569486026919451365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_74
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 1310
+        width: 97
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ab52d545f898850800000000000000
+      internalID: 6379787939649796704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_76
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1167
+        width: 102
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd59814c7dd630f40800000000000000
+      internalID: 5693515127401780700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_77
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1167
+        width: 100
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074e82140e34f4990800000000000000
+      internalID: -7399621032301501328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_78
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1168
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5363e3a89f5cd190800000000000000
+      internalID: -7936363334144400550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_79
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1168
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18100e13e48556fe0800000000000000
+      internalID: -1196453033129541247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_80
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1235
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1705e31be8098850800000000000000
+      internalID: 6379640152891131675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_81
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1165
+        width: 94
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb8cec8d90234c50800000000000000
+      internalID: 6648193335975250940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_82
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1161
+        width: 100
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d9db58d160a6140800000000000000
+      internalID: 4713586683864259992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_83
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1161
+        width: 81
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c4e2598f4cdd4a0800000000000000
+      internalID: -6566876109702542323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_84
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1163
+        width: 78
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cef42dd7aea4a50800000000000000
+      internalID: 6506270437810367530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_85
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1167
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7835458d48292f0800000000000000
+      internalID: -967564905268672565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_86
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 1163
+        width: 88
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac0a6d3b18642370800000000000000
+      internalID: 8296870879727062178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_87
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1166
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c91266165a74340800000000000000
+      internalID: 4848025361631517816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_88
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1166
+        width: 59
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5d27de08365f6e0800000000000000
+      internalID: -1804426670301325909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_93
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1038
+        width: 49
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90dffae79fad5f9e0800000000000000
+      internalID: -1588122528471057143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_94
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1035
+        width: 59
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f72eb7f3fdf3ae70800000000000000
+      internalID: 9125416494258071542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_95
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1079
+        width: 103
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9be7301b6085c310800000000000000
+      internalID: 1424686054454586269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_96
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1041
+        width: 51
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675ce4297836d15d0800000000000000
+      internalID: -3090204335379921546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_97
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1046
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb68163507e816930800000000000000
+      internalID: 4134742545989207742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_98
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1042
+        width: 83
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebb1751e80b72b60800000000000000
+      internalID: 7721334210441624545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_99
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1042
+        width: 90
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60137c472423078c0800000000000000
+      internalID: -4003644807723929338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_100
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1082
+        width: 118
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6719c2fe5fad5bb80800000000000000
+      internalID: -8379550781838421642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_101
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1042
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23c78b191e6189c0800000000000000
+      internalID: -3926736345975241937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_102
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1039
+        width: 102
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99732a94e4b6bb100800000000000000
+      internalID: 124811398669809561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_103
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 923
+        width: 49
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beae49943daa150b0800000000000000
+      internalID: -5741620225471354133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_104
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 919
+        width: 49
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5795e17fcdb8ed8d0800000000000000
+      internalID: -2819662535532324491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_108
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 923
+        width: 65
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad78203a03ce2db0800000000000000
+      internalID: -4814696503087432287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_109
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 931
+        width: 51
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc89e6d62f497eb30800000000000000
+      internalID: 4316582536796870863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_110
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 928
+        width: 91
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d20fbcc959eb4770800000000000000
+      internalID: 8596220885663154900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_111
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 919
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d6ebe08b0721190800000000000000
+      internalID: -7993202452805554927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_112
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 922
+        width: 80
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfdd888019da7820800000000000000
+      internalID: 2916882373709520851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_113
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 919
+        width: 99
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414e14f94778c83a0800000000000000
+      internalID: -6661800813829954540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_114
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 923
+        width: 97
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee7be46f866c1d60800000000000000
+      internalID: 7862271815541554927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_115
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 907
+        width: 90
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878e74ab91a28a620800000000000000
+      internalID: 2785522659516475512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_116
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 915
+        width: 78
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f62ef0a67136ed0800000000000000
+      internalID: -2422066430294724752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_117
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 920
+        width: 85
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f88005a80c3fde0800000000000000
+      internalID: -1300484167099183222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_118
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 774
+        width: 85
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4e9beb6a44939c0800000000000000
+      internalID: -3947048115458415397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_119
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 783
+        width: 87
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a4c406903934320800000000000000
+      internalID: 2541036283246692993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_120
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 782
+        width: 62
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0ebbad359503680800000000000000
+      internalID: -8777417457058193163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_121
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 786
+        width: 73
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb88b7c2db3ad980800000000000000
+      internalID: -8513426369110570056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_122
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 785
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2948159e443b2b1d0800000000000000
+      internalID: -3336407265374534510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_123
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 787
+        width: 84
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fba15f6af95777b0800000000000000
+      internalID: -5226609910395851791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_124
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 815
+        width: 95
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08828e6dd245d56d0800000000000000
+      internalID: -3000149220903081856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_126
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 818
+        width: 97
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba15e9c406dbdf040800000000000000
+      internalID: 4683107408835137963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_127
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 818
+        width: 99
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de3264fe7a227a40800000000000000
+      internalID: 5364396830906007256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_128
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 799
+        width: 88
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7649199d55b5467d0800000000000000
+      internalID: -2926113433603435417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_131
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 666
+        width: 86
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca95f7265f6aa820800000000000000
+      internalID: 2930276923386206918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_132
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 661
+        width: 80
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa691bd8d1277970800000000000000
+      internalID: 8752501616090376945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_134
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 686
+        width: 65
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbbbd3113676b7e0800000000000000
+      internalID: -1750081452028216333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_135
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 693
+        width: 77
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcc5a52ceaeae280800000000000000
+      internalID: -9013133404263822117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ectoplasm
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 719
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849ebf00d12e806c0800000000000000
+      internalID: -4176840040187696824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_137
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 721
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790080b2eda085df0800000000000000
+      internalID: -191391034842283881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_138
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 724
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c9a9b993dd4ebf0800000000000000
+      internalID: -295868436006134752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_139
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 727
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa577ec0b1f26660800000000000000
+      internalID: 7377724881266760361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_140
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 653
+        width: 73
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd246cdfc60df860800000000000000
+      internalID: 7565210438877851075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_141
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 643
+        width: 91
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633578cff8b081cf0800000000000000
+      internalID: -281462263665700042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_142
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 690
+        width: 97
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654d2295fdf8a6b40800000000000000
+      internalID: 5434314089811858518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_143
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 656
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5542d6cf48a9f55e0800000000000000
+      internalID: -1918645020275170219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_144
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 662
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9de19a39203ed50800000000000000
+      internalID: 6765253898461436339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_145
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 657
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a3f7256fe026910800000000000000
+      internalID: 1829040849774656011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_146
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 659
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85c0061af6b66dd0800000000000000
+      internalID: -2493104158475762291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_147
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 534
+        width: 83
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa723ba811b5cf8f0800000000000000
+      internalID: -505428927272769617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_149
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 538
+        width: 78
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b5ba246d7ef36f0800000000000000
+      internalID: -702588109418964078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_151
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 535
+        width: 74
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631f8c211ace8f3a0800000000000000
+      internalID: -6631290274754006730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_152
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 532
+        width: 75
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279986b1b4257e540800000000000000
+      internalID: 5037085190773053810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_154
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 552
+        width: 85
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05b024938fc93b50800000000000000
+      internalID: 6573513295156786442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_155
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 553
+        width: 95
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13108c14de923acb0800000000000000
+      internalID: -4853989874387648207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_156
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 531
+        width: 93
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4668d589f8da51b0800000000000000
+      internalID: -5666978614888339894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_157
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 529
+        width: 97
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3066c2ef5168587b0800000000000000
+      internalID: -5222620763849464317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_158
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 395
+        width: 49
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbbea6cd23ae41d0800000000000000
+      internalID: -3364572454596985910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_159
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 402
+        width: 55
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab256b5066f777e0800000000000000
+      internalID: -1767673435008980057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_160
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 396
+        width: 43
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6657ae2debd424360800000000000000
+      internalID: 7152364640195474790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_161
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 463
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f19d9de59c27d370800000000000000
+      internalID: 8347189456802779637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_162
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 467
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1256e90198bd420c0800000000000000
+      internalID: -4601311537529985759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_163
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 470
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c7973f2d649efc0800000000000000
+      internalID: -3465160566442984348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_164
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 463
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e23fb07ac7b4bb0800000000000000
+      internalID: -4950726308461859217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_165
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 462
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0373e41889be4f0800000000000000
+      internalID: -798376827797688080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_166
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 464
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38a05051a556ecc0800000000000000
+      internalID: -3682161494003242949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_167
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 396
+        width: 62
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfeaab655740fca0800000000000000
+      internalID: -5985205472571232308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_168
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 393
+        width: 97
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106f79074fec1f480800000000000000
+      internalID: -8867078642059446783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_169
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 392
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8dbdea7caf05a020800000000000000
+      internalID: 2352303613842144651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_170
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 399
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e660d8f00946400800000000000000
+      internalID: 316536270287695367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_171
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 407
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ad337749c18fcb0800000000000000
+      internalID: -4830079176374232459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_172
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 406
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d053fa9a58c05070800000000000000
+      internalID: 8093188821857030354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_173
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 269
+        width: 50
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1354d30722167bc0800000000000000
+      internalID: -3785818477981052133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_174
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 300
+        width: 82
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380c28c95a61eca40800000000000000
+      internalID: 5390270704560291971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_175
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 273
+        width: 46
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1278f953c828d7ce0800000000000000
+      internalID: -1405823969963047135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_176
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 329
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f1b64a22abddae0800000000000000
+      internalID: -1522856441031221356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_177
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 335
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcf3d4c27b461230800000000000000
+      internalID: 3609155107684613296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_178
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 339
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3078f7a9f8e8ba0800000000000000
+      internalID: -6084768152803671118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_179
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 339
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620048dfb8f0e10d0800000000000000
+      internalID: -3450303170591064026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_180
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 343
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128a198d041d64410800000000000000
+      internalID: 1461085205569841185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_181
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 343
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3843af9cccfc4b390800000000000000
+      internalID: -7803383775857331069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_182
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 271
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef7644dc27afcda0800000000000000
+      internalID: -5922331173987123229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_183
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 278
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18658ae9dfbf77d10800000000000000
+      internalID: 2123442816035608193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_184
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 279
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79b7e00fac271230800000000000000
+      internalID: 3609402756506827135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_185
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 149
+        width: 53
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1534855b5bd3fcf0800000000000000
+      internalID: -219590771487787748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_186
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 137
+        width: 58
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43f541f4138f6620800000000000000
+      internalID: 2769576421826622284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_187
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 155
+        width: 49
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1c26a7153ba4290800000000000000
+      internalID: -7905309033368469054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_188
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 202
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6d562e4aa14acd0800000000000000
+      internalID: -2547882193709574410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_189
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 203
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da42cfdf473dc1ca0800000000000000
+      internalID: -6044724100407221075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_190
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 146
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbf52a7c70c5af50800000000000000
+      internalID: 6892126445618199513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_191
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 147
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7f65e519b2953e0800000000000000
+      internalID: -2064571050819651672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_192
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 151
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5960dc0ce5836fe0800000000000000
+      internalID: -1196965827076658853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_193
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 38
+        width: 69
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86c328c961680aa0800000000000000
+      internalID: -6194594180490869109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lonelytempsprites1_194
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 30
+        width: 94
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe489a1f0d8f658e0800000000000000
+      internalID: -1704901832621849361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

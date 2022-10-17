@@ -8,9 +8,6 @@ public class EnemyBehavior : MonoBehaviour
     public int startingHealth;
     public float movementSpeed;
     public bool isMovementEnabled = true;
-<<<<<<< Updated upstream
-    private int currentHealth;
-=======
     public int currentHealth;
     public const int ATTACKDISTANCE = 10;
 
@@ -24,7 +21,6 @@ public class EnemyBehavior : MonoBehaviour
     private float timeSinceLastShot;
 
 
->>>>>>> Stashed changes
     private Vector2 moveDir;
 
     private Rigidbody2D enemyRB;
@@ -39,6 +35,7 @@ public class EnemyBehavior : MonoBehaviour
     {
         currentHealth = startingHealth;
         enemyRB = GetComponent<Rigidbody2D>();
+        timeSinceLastShot = 0;
         GameObject tempPlayer = GameObject.FindGameObjectWithTag("Player");
         if (tempPlayer)
         {
@@ -51,15 +48,12 @@ public class EnemyBehavior : MonoBehaviour
     void FixedUpdate()
     {
         Movement();
-<<<<<<< Updated upstream
-=======
         if ((playerRB.position - enemyRB.position).magnitude < ATTACKDISTANCE && timeSinceLastShot > enemy.Weapon.TimeBetweenShots)
         {
             Fire();
             timeSinceLastShot = 0;
         }
         timeSinceLastShot += Time.deltaTime;
->>>>>>> Stashed changes
     }
 
 
@@ -70,27 +64,20 @@ public class EnemyBehavior : MonoBehaviour
         enemyRB.transform.up = moveDir;
     }
 
-<<<<<<< Updated upstream
-=======
     void Fire()
     {
         GameObject projectileGameObject = GameObject.Instantiate(enemy.Weapon.Projectile.Prefab, transform.position, Quaternion.Euler(transform.up));
         projectileGameObject.GetComponent<ProjectileScript>().Init(transform.up, enemy.Weapon.Projectile, gameObject.tag);
     }
 
->>>>>>> Stashed changes
     void UpdateMoveDir()
     {
         if (playerRB != null)
         {
             moveDir = (playerRB.position - enemyRB.position).normalized;
-            Debug.Log("X: " + moveDir.x + " Y: " + moveDir.y);
         }       
         //UpdateAnimator();
     }
-
-<<<<<<< Updated upstream
-=======
     public void TakeDamage(int _dmgAmount)
     {
         currentHealth -= _dmgAmount;
@@ -101,7 +88,6 @@ public class EnemyBehavior : MonoBehaviour
         }
     }
 
->>>>>>> Stashed changes
     void UpdateAnimator()
     {
         GetComponent<Animator>().SetFloat("xSpeed", moveDir.x);

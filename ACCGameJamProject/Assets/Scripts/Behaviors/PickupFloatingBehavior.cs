@@ -26,7 +26,7 @@ public class PickupFloatingBehavior : MonoBehaviour
         {
             floatSpeed = -floatSpeed;
             yield return new WaitForSeconds(TIME_TO_REVERSE_DIRECTION);
-        }   
+        }
     }
     private void OnTriggerEnter2D(Collider2D other) {
         GameObject.Destroy(gameObject);

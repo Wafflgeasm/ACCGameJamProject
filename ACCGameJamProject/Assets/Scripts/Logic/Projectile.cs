@@ -4,10 +4,10 @@ using UnityEngine;
 
 public abstract class Projectile
 {
-    public Projectile(float damage){
-
+    public Projectile(int damage){
+        this.damage = damage;
     }
-    public float damage;
+    public int damage;
     public abstract float Speed{get;}
     public abstract float Size{get;}
     public abstract GameObject Prefab{get;}

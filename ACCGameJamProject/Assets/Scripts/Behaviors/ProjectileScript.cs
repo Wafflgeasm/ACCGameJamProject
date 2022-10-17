@@ -11,9 +11,12 @@ public class ProjectileScript : MonoBehaviour
     [SerializeField]
     private Rigidbody2D m_RB;
     private float timeSinceCreated;
-    public void Init(Vector2 initialDirection, Projectile projectileType){
+    //The tag of the object that fired the projectile. Used to prevent the projectile from destorying the object that fired it.
+    private string entityFiring;
+    public void Init(Vector2 initialDirection, Projectile projectileType, string entityFiring){
         direction = initialDirection;
         this.projectileType = projectileType;
+        this.entityFiring = entityFiring;
         m_RB = GetComponent<Rigidbody2D>();
         timeSinceCreated = 0f;
     }
@@ -31,8 +34,6 @@ public class ProjectileScript : MonoBehaviour
         if (other.gameObject.tag == "Wall"){
             DestroyProjectile();
         }
-<<<<<<< Updated upstream
-=======
         if (other.gameObject.CompareTag("Enemy") && entityFiring != "Enemy")
         {
             EnemyBehavior eb = other.gameObject.GetComponent<EnemyBehavior>();
@@ -51,11 +52,7 @@ public class ProjectileScript : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        
->>>>>>> Stashed changes
-    }
+
     private void DestroyProjectile(){
         projectileType.OnDestroy();
         GameObject.Destroy(gameObject);

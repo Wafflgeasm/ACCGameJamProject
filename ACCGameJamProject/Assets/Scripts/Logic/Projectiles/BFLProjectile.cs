@@ -7,7 +7,7 @@ public class BFLProjectile : Projectile
     public override float Speed => 20f;
     public override float Size => 10f;
     public override GameObject Prefab => AssetSource.instance.gameObjects.projectiles.BFL;
-    public BFLProjectile(float damage):base(damage){}
+    public BFLProjectile(int damage):base(damage){}
     public override void OnDestroy()
     {
     }
