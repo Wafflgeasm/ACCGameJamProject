@@ -31,6 +31,30 @@ public class ProjectileScript : MonoBehaviour
         if (other.gameObject.tag == "Wall"){
             DestroyProjectile();
         }
+<<<<<<< Updated upstream
+=======
+        if (other.gameObject.CompareTag("Enemy") && entityFiring != "Enemy")
+        {
+            EnemyBehavior eb = other.gameObject.GetComponent<EnemyBehavior>();
+            if (eb != null)
+            {
+                eb.enemy.TakeDamage(projectileType.damage);
+            }
+            DestroyProjectile();
+        }
+
+        if (other.gameObject.CompareTag("Player") && entityFiring != "Player")
+        {
+            //Insert code here to damage player
+            DestroyProjectile();
+        }
+        
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        
+>>>>>>> Stashed changes
     }
     private void DestroyProjectile(){
         projectileType.OnDestroy();
