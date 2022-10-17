@@ -39,7 +39,7 @@ public class ProjectileScript : MonoBehaviour
             EnemyBehavior eb = other.gameObject.GetComponent<EnemyBehavior>();
             if (eb != null)
             {
-                eb.TakeDamage(projectileType.damage);
+                eb.enemy.TakeDamage(projectileType.damage);
             }
             DestroyProjectile();
         }
@@ -52,10 +52,7 @@ public class ProjectileScript : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        
-    }
+
     private void DestroyProjectile(){
         projectileType.OnDestroy();
         GameObject.Destroy(gameObject);

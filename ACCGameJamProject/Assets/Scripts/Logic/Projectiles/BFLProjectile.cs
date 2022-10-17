@@ -10,7 +10,6 @@ public class BFLProjectile : Projectile
     public BFLProjectile(int damage):base(damage){}
     public override void OnDestroy()
     {
-        Debug.Log("Yay");
     }
     public override void Update()
     {
