@@ -14,9 +14,6 @@ public class AssetSource : ScriptableObject {
     public static AssetSource instance;
     public static GameObjects.Menus Menus => AssetSource.instance.gameObjects.menus;
     public GameObjects gameObjects;
-    public AudioClips audioClips;
-    public LanguageAssets languageAssets;
-
     [System.Serializable]
     public struct GameObjects{
         public GameObject ectoplasm;
@@ -37,32 +34,7 @@ public class AssetSource : ScriptableObject {
             public GameObject sampleEnemy;
         }
     }
-
-    [System.Serializable]
-    public struct AudioClips
-    {
-        [Header("Ghost Sound Effects:")]
-        public AudioClip[] GhostHurtSFX;
-        public AudioClip[] GhostDeadSFX;
-        public AudioClip[] GhostIdleSFX;
-
-        [Header("Player Sound Effects:")]
-        public AudioClip[] PlayerHurtSFX;
-        public AudioClip PlayerDeadSFX;
-
-        [Header("General NPC Sound Effects:")]
-        public AudioClip[] NPCGrumbleSFX;
-        public AudioClip[] NPCDisagreeSFX;
-        public AudioClip[] NPCAgreeSFX;
-
-        [Header("Old Lady Sound Effects:")]
-        public AudioClip OldLadyLaughSFX;
-        public AudioClip OldLadyAgreeSFX;
-        public AudioClip OldLadyDisagreeSFX;
-        public AudioClip OldLadyQuestionSFX;
-        public AudioClip OldLadyPurchasedSFX;
-    }
-
+    public LanguageAssets languageAssets;
     [System.Serializable]
     public struct LanguageAssets{
         public LanguageAsset English;
