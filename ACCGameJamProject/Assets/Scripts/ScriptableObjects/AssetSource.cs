@@ -34,6 +34,7 @@ public class AssetSource : ScriptableObject {
             public GameObject sampleEnemy;
         }
     }
+<<<<<<< Updated upstream
     public LanguageAssets languageAssets;
     [System.Serializable]
     public struct LanguageAssets{
@@ -43,16 +44,54 @@ public class AssetSource : ScriptableObject {
     [System.Serializable]
     public struct AudioClips{
         public AudioClip sampleClip;
+=======
+
+    [System.Serializable]
+    public struct AudioClips
+    {
+>>>>>>> Stashed changes
         public Music music;
+        public SFX sfx;
         [System.Serializable]
         public struct Music{
 
         }
-        public SFX sfx;
         [System.Serializable]
         public struct SFX{
-
+            public Ghost ghost;
+            public Player player;
+            public NPC npc;
+            public OldLady oldLady;
+            [System.Serializable]
+            public struct Ghost{
+                public AudioClip[] ghostHurtSFX;
+                public AudioClip[] ghostDeadSFX;
+                public AudioClip[] ghostIdleSFX;
+            }
+            [System.Serializable]
+            public struct Player{
+                public AudioClip[] playerHurtSFX;
+                public AudioClip playerDeadSFX;
+            }
+            [System.Serializable]
+            public struct NPC{
+                public AudioClip[] npcDisagreeSFX;
+                public AudioClip[] npcGrumbleSFX;
+                public AudioClip[] npcAgreeSFX;
+            }
+            [System.Serializable]
+            public struct OldLady{
+                public AudioClip oldLadyLaughSFX;
+                public AudioClip oldLadyAgreeSFX;
+                public AudioClip oldLadyDisagreeSFX;
+                public AudioClip oldLadyQuestionSFX;
+                public AudioClip oldLadyPurchasedSFX;
+            }
         }
+    }
 
+    [System.Serializable]
+    public struct LanguageAssets{
+        public LanguageAsset English;
     }
 }

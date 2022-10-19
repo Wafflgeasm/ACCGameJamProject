@@ -12,8 +12,5 @@ public class InitScript : MonoBehaviour
         AudioManager.Init();
     }
     private void Update() {
-        if (Input.GetKeyDown(KeyCode.C)){
-            AudioManager.PlaySound(AssetSource.instance.audioClips.sampleClip);
-        }
     }
 }
