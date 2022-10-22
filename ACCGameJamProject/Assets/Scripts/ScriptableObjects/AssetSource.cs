@@ -41,18 +41,42 @@ public class AssetSource : ScriptableObject {
     }
     public AudioClips audioClips;
     [System.Serializable]
-    public struct AudioClips{
+    public struct AudioClips {
         public AudioClip sampleClip;
         public Music music;
         [System.Serializable]
-        public struct Music{
+        public struct Music {
 
         }
         public SFX sfx;
         [System.Serializable]
-        public struct SFX{
+        public struct SFX {
 
+            [Header("Ghost Sound Effects:")]
+            public AudioClip[] GhostHurtSFX;
+            public AudioClip[] GhostDeadSFX;
+            public AudioClip[] GhostIdleSFX;
+
+            [Header("Player Sound Effects:")]
+            public AudioClip[] PlayerHurtSFX;
+            public AudioClip PlayerDeadSFX;
+
+            [Header("General NPC Sound Effects:")]
+            public AudioClip[] NPCGrumbleSFX;
+            public AudioClip[] NPCDisagreeSFX;
+            public AudioClip[] NPCAgreeSFX;
+
+            [Header("Old Lady Sound Effects:")]
+            public AudioClip OldLadyLaughSFX;
+            public AudioClip OldLadyAgreeSFX;
+            public AudioClip OldLadyDisagreeSFX;
+            public AudioClip OldLadyQuestionSFX;
+            public AudioClip OldLadyPurchasedSFX;
+
+            [Header("Menu Sound Effects:")]
+            public AudioClip menuSelectSFX;
+            public AudioClip menuConfirmSFX;
+            public AudioClip menuBackSFX;
         }
-
     }
 }
