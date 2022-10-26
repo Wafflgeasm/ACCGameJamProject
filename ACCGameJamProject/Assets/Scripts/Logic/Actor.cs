@@ -4,12 +4,16 @@ using UnityEngine;
 
 public abstract class Actor
 {
-    public abstract int startingHP{get;}
+    public abstract int StartingHP{get;}
     public int hp;
+    public int maxHP{get;}
+    public abstract int Speed{get;}
+    public Weapon weapon;
     public GameObject gameObject;
-    public Actor(GameObject gameObject){
+    public Actor(GameObject gameObject, Weapon weapon){
+        this.weapon = weapon;
         this.gameObject = gameObject;
-        hp = startingHP;
+        hp = StartingHP;
     }
     public void TakeDamage(int damage){
         hp-=damage;

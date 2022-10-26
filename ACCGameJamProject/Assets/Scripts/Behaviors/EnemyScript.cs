@@ -2,27 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyBehavior : MonoBehaviour
+public class EnemyScript : MonoBehaviour
 {
     [Header("Enemy Properties:")]
-    public int startingHealth;
-    public float movementSpeed;
     public bool isMovementEnabled = true;
-    public int currentHealth;
-    public const int ATTACKDISTANCE = 10;
-
     public Enemy enemy;
 
     [Header("Objects to Instantiate")]
-    public GameObject ectoplasm;
-
     private bool isFiring;
-
     private float timeSinceLastShot;
-
-
     private Vector2 moveDir;
-
     private Rigidbody2D enemyRB;
     private Rigidbody2D playerRB;
 
@@ -33,7 +22,6 @@ public class EnemyBehavior : MonoBehaviour
 
     private void Init(Enemy enemy)
     {
-        currentHealth = startingHealth;
         enemyRB = GetComponent<Rigidbody2D>();
         timeSinceLastShot = 0;
         GameObject tempPlayer = GameObject.FindGameObjectWithTag("Player");
@@ -48,7 +36,7 @@ public class EnemyBehavior : MonoBehaviour
     void FixedUpdate()
     {
         Movement();
-        if ((playerRB.position - enemyRB.position).magnitude < ATTACKDISTANCE && timeSinceLastShot > enemy.Weapon.TimeBetweenShots)
+        if ((playerRB.position - enemyRB.position).magnitude < enemy.AttackDistance && timeSinceLastShot > enemy.weapon.TimeBetweenShots)
         {
             Fire();
             timeSinceLastShot = 0;
@@ -60,14 +48,14 @@ public class EnemyBehavior : MonoBehaviour
     void Movement()
     {
         UpdateMoveDir();
-        enemyRB.velocity = moveDir * movementSpeed;
+        enemyRB.velocity = moveDir * enemy.Speed;
         enemyRB.transform.up = moveDir;
     }
 
     void Fire()
     {
-        GameObject projectileGameObject = GameObject.Instantiate(enemy.Weapon.Projectile.Prefab, transform.position, Quaternion.Euler(transform.up));
-        projectileGameObject.GetComponent<ProjectileScript>().Init(transform.up, enemy.Weapon.Projectile, gameObject.tag);
+        GameObject projectileGameObject = GameObject.Instantiate(enemy.weapon.Projectile.Prefab, transform.position, Quaternion.Euler(transform.up));
+        projectileGameObject.GetComponent<ProjectileScript>().Init(transform.up, enemy.weapon.Projectile, gameObject.tag);
     }
 
     void UpdateMoveDir()
@@ -78,12 +66,12 @@ public class EnemyBehavior : MonoBehaviour
         }       
         //UpdateAnimator();
     }
-    public void TakeDamage(int _dmgAmount)
+    public void TakeDamage(int damage)
     {
-        currentHealth -= _dmgAmount;
-        if (currentHealth <= 0)
+        enemy.hp -= damage;
+        if (enemy.hp <= 0)
         {
-            Instantiate(ectoplasm, transform.position, Quaternion.identity).GetComponent<PickupFloatingBehavior>().Init(enemy.EctoplasmCount);
+            Instantiate(Enemy.EctoplasmPrefab, transform.position, Quaternion.identity).GetComponent<EctoplasmScript>().Init(enemy.EctoplasmCount);
             Destroy(gameObject);
         }
     }

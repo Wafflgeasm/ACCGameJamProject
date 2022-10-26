@@ -6,4 +6,5 @@ public abstract class Weapon
 {
     public abstract Projectile Projectile{get;}
     public abstract float TimeBetweenShots{get;}
+    public bool isFiring;
 }

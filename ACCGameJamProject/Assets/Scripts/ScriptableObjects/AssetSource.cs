@@ -41,8 +41,7 @@ public class AssetSource : ScriptableObject {
     }
     public AudioClips audioClips;
     [System.Serializable]
-    public struct AudioClips {
-        public AudioClip sampleClip;
+    public struct AudioClips{
         public Music music;
         [System.Serializable]
         public struct Music {

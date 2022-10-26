@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PickupFloatingBehavior : MonoBehaviour
+public class EctoplasmScript : MonoBehaviour
 {
     private bool isFloatingUp;
     private float timeFloating;

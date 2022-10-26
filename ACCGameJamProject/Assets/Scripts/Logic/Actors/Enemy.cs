@@ -4,11 +4,11 @@ using UnityEngine;
 
 public abstract class Enemy : Actor
 {
-    public Enemy(GameObject gameObject):base(gameObject){}
     public static GameObject EctoplasmPrefab => AssetSource.instance.gameObjects.ectoplasm;
+    public Enemy(GameObject gameObject, Weapon weapon):base(gameObject, weapon){}
     public abstract int EctoplasmCount{get;}
-    public abstract Weapon Weapon{get;}
     public abstract GameObject Prefab{get;}
+    public abstract int AttackDistance{get;}
     public override void Die()
     {
         base.Die();
