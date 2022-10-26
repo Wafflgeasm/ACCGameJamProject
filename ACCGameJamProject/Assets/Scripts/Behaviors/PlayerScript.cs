@@ -2,28 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerScript : MonoBehaviour
 {
+    public Weapon weapon => Player.instance.weapon;
     [Header("Player Properties:")]
-    public int startingHealth;
-    public int movementSpeed;
     public bool isMovementEnabled = true;
-    private int currentHealth;
-
-
-    [Header("Weapon Properties:")]
-    public Weapon weapon = new BFLWeapon();
-    private bool isFiring;
-
-    [Header("Vacuum Properties:")]
-    public float suckSize;
-    public float suckDuration;
-    private bool isSucking;
-
-
     private Transform flashLightPivot;
     private GameObject vacuum;
-    private Rigidbody2D m_RB;
+    private Rigidbody2D m_RigidBody;
     private float timeSinceLastShot;
     private void Awake()
     {
@@ -38,14 +24,14 @@ public class PlayerController : MonoBehaviour
         LookAtMouse();
         timeSinceLastShot += Time.deltaTime;
         if (Input.GetKeyDown(KeyCode.Space)){
-            isFiring = true;
+            weapon.isFiring = true;
         }
         if (Input.GetKey(KeyCode.Space) && timeSinceLastShot > weapon.TimeBetweenShots){
             Shoot();
             timeSinceLastShot = 0;
         }
         if (Input.GetKeyUp(KeyCode.Space)){
-            isFiring = false;
+            weapon.isFiring = false;
         }
     }
 
@@ -54,8 +40,7 @@ public class PlayerController : MonoBehaviour
     //internal functions
     private void Init()
     {
-        currentHealth = startingHealth;
-        m_RB = GetComponent<Rigidbody2D>();
+        m_RigidBody = GetComponent<Rigidbody2D>();
         flashLightPivot = transform.Find("Pivot Point");
         vacuum = transform.Find("Vacuum Hitbox").gameObject;
     }
@@ -66,7 +51,7 @@ public class PlayerController : MonoBehaviour
         {
             Vector2 directionalVector = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
             //Instant Accel/Decel using rb, we may want to add smoothing depending on feel but this is normally a good place to start.
-            m_RB.velocity = directionalVector * movementSpeed;
+            m_RigidBody.velocity = directionalVector * Player.instance.Speed;
         }
     }
 

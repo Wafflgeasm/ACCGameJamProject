@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class Ghost : Enemy
 {
-    public Ghost(GameObject gameObject):base(gameObject){}
-    public override int startingHP => 60;
+    public Ghost(GameObject gameObject):base(gameObject, new BFLWeapon()){}
+    public override int StartingHP => 60;
     public override int EctoplasmCount => 1;
     public override GameObject Prefab => AssetSource.instance.gameObjects.enemies.ghost;
-    public override Weapon Weapon => new BFLWeapon();
+    public override int AttackDistance => 10;
+    public override int Speed => 2;
 }

@@ -41,8 +41,12 @@ public class AssetSource : ScriptableObject {
     }
     public AudioClips audioClips;
     [System.Serializable]
+<<<<<<< Updated upstream
     public struct AudioClips{
         public AudioClip sampleClip;
+=======
+    public struct AudioClips {
+>>>>>>> Stashed changes
         public Music music;
         [System.Serializable]
         public struct Music{

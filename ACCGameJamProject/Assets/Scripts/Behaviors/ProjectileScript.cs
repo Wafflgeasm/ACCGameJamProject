@@ -36,7 +36,7 @@ public class ProjectileScript : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Enemy") && entityFiring != "Enemy")
         {
-            EnemyBehavior eb = other.gameObject.GetComponent<EnemyBehavior>();
+            EnemyScript eb = other.gameObject.GetComponent<EnemyScript>();
             if (eb != null)
             {
                 eb.enemy.TakeDamage(projectileType.damage);
