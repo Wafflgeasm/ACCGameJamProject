@@ -7,7 +7,7 @@ public class ProjectileScript : MonoBehaviour
     [SerializeField]
     private Vector2 direction;
     [SerializeField]
-    private Projectile projectileType;
+    private Projectile projectile;
     [SerializeField]
     private Rigidbody2D m_RB;
     private float timeSinceCreated;
@@ -15,7 +15,7 @@ public class ProjectileScript : MonoBehaviour
     private string entityFiring;
     public void Init(Vector2 initialDirection, Projectile projectileType, string entityFiring){
         direction = initialDirection;
-        this.projectileType = projectileType;
+        this.projectile = projectileType;
         this.entityFiring = entityFiring;
         m_RB = GetComponent<Rigidbody2D>();
         timeSinceCreated = 0f;
@@ -27,8 +27,8 @@ public class ProjectileScript : MonoBehaviour
         }
     }
     public void FixedUpdate(){
-        m_RB.velocity = projectileType.Speed * direction;
-        projectileType.Update();
+        m_RB.velocity = projectile.Speed * direction;
+        projectile.Update();
     }
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.tag == "Wall"){
@@ -39,7 +39,7 @@ public class ProjectileScript : MonoBehaviour
             EnemyScript eb = other.gameObject.GetComponent<EnemyScript>();
             if (eb != null)
             {
-                eb.enemy.TakeDamage(projectileType.damage);
+                eb.enemy.TakeDamage(projectile.damage);
             }
             DestroyProjectile();
         }
@@ -47,14 +47,16 @@ public class ProjectileScript : MonoBehaviour
         if (other.gameObject.CompareTag("Player") && entityFiring != "Player")
         {
             //Insert code here to damage player
+            if (Player.instance != null){
+                Player.instance.TakeDamage(projectile.damage);
+            }
             DestroyProjectile();
         }
-        
     }
 
 
     private void DestroyProjectile(){
-        projectileType.OnDestroy();
+        projectile.OnDestroy();
         GameObject.Destroy(gameObject);
     }
 }

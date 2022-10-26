@@ -12,6 +12,7 @@ public abstract class Enemy : Actor
     public override void Die()
     {
         base.Die();
-        GameObject.Instantiate(EctoplasmPrefab, gameObject.transform.position, Quaternion.identity);
+        GameObject.Instantiate(EctoplasmPrefab, gameObject.transform.position, Quaternion.identity).GetComponent<EctoplasmScript>().Init(EctoplasmCount);
+        GameObject.Destroy(gameObject);
     }
 }

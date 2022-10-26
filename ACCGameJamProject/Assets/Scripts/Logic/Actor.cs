@@ -21,6 +21,9 @@ public abstract class Actor
             Die();
         }
     }
+    public void Heal(int healAmount){
+        hp = System.Math.Min(maxHP, hp+healAmount);
+    }
     public virtual void Die(){
         GameObject.Destroy(gameObject);
     }

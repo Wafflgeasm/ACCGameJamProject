@@ -14,7 +14,9 @@ public class Player : Actor
     public float vacuumSuckDuration;
     public bool isVacuumSucking;
     public Player(GameObject gameObject, Weapon weapon):base(gameObject, weapon){}
-    public void Heal(){
-
+    public override void Die()
+    {
+        base.Die();
+        PersistentData.Save();
     }
 }

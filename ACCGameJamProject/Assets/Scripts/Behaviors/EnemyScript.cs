@@ -71,8 +71,7 @@ public class EnemyScript : MonoBehaviour
         enemy.hp -= damage;
         if (enemy.hp <= 0)
         {
-            Instantiate(Enemy.EctoplasmPrefab, transform.position, Quaternion.identity).GetComponent<EctoplasmScript>().Init(enemy.EctoplasmCount);
-            Destroy(gameObject);
+            enemy.Die();
         }
     }
 

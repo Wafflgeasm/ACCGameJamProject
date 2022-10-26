@@ -8,6 +8,7 @@ public class InitScript : MonoBehaviour
     private AudioSource audioSource;
     public GameObject playerGameObject;
     private void Awake() {
+        PersistentData.Load();
         Player.instance = new Player(playerGameObject, new BFLWeapon());
         AssetSource.Init();
         LanguageAsset.Init();
