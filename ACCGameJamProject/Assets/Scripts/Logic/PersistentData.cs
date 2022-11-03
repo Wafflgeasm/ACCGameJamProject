@@ -39,4 +39,5 @@ public class PersistentData
     #endregion
     //Put data to save below in format: public <type> <name> = <default value>
     public int ectoplasm = 0;
+    public int keys = 0;
 }
