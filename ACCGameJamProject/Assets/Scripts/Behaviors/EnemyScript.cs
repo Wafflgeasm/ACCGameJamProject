@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
+    public static List<EnemyScript> all;
     [Header("Enemy Properties:")]
     public bool isMovementEnabled = true;
     public Enemy enemy;
@@ -12,35 +13,29 @@ public class EnemyScript : MonoBehaviour
     private bool isFiring;
     private float timeSinceLastShot;
     private Vector2 moveDir;
-    private Rigidbody2D enemyRB;
-    private Rigidbody2D playerRB;
+    private Rigidbody2D enemyRigidBody;
+    private Rigidbody2D playerRigidBody;
 
-    private void Awake() {
-        enemy = new Ghost(gameObject);
-        Init(enemy);
-    }
-
-    private void Init(Enemy enemy)
+    public void Init(Enemy enemy)
     {
-        enemyRB = GetComponent<Rigidbody2D>();
+        all.Add(this);
+        enemyRigidBody = GetComponent<Rigidbody2D>();
         timeSinceLastShot = 0;
-        GameObject tempPlayer = GameObject.FindGameObjectWithTag("Player");
-        if (tempPlayer)
-        {
-            playerRB = tempPlayer.GetComponent<Rigidbody2D>();
-        }
+        playerRigidBody = Player.instance.gameObject.GetComponent<Rigidbody2D>();
         this.enemy = enemy;
         //InvokeRepeating("UpdateMoveDir", 0f, 1.5f);
     }
 
+
     void FixedUpdate()
     {
         Movement();
-        if ((playerRB.position - enemyRB.position).magnitude < enemy.AttackDistance && timeSinceLastShot > enemy.weapon.TimeBetweenShots)
+        if ((playerRigidBody.position - enemyRigidBody.position).magnitude < enemy.AttackDistance && timeSinceLastShot > enemy.weapon.TimeBetweenShots)
         {
             Fire();
             timeSinceLastShot = 0;
         }
+        
         timeSinceLastShot += Time.deltaTime;
     }
 
@@ -48,8 +43,9 @@ public class EnemyScript : MonoBehaviour
     void Movement()
     {
         UpdateMoveDir();
-        enemyRB.velocity = moveDir * enemy.Speed;
-        enemyRB.transform.up = moveDir;
+        Vector2 velocity = moveDir * enemy.Speed;
+        enemyRigidBody.velocity = velocity;
+        enemyRigidBody.transform.up = moveDir;
     }
 
     void Fire()
@@ -60,12 +56,13 @@ public class EnemyScript : MonoBehaviour
 
     void UpdateMoveDir()
     {
-        if (playerRB != null)
+        if (playerRigidBody != null)
         {
-            moveDir = (playerRB.position - enemyRB.position).normalized;
+            moveDir = (playerRigidBody.position - enemyRigidBody.position).normalized;
         }       
         //UpdateAnimator();
     }
+<<<<<<< Updated upstream
     public void TakeDamage(int damage)
     {
         enemy.hp -= damage;
@@ -74,6 +71,8 @@ public class EnemyScript : MonoBehaviour
             enemy.Die();
         }
     }
+=======
+>>>>>>> Stashed changes
 
     void UpdateAnimator()
     {

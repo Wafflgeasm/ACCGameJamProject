@@ -4,13 +4,22 @@ using UnityEngine;
 
 public abstract class Projectile
 {
-    public Projectile(int damage){
-        this.damage = damage;
-    }
+    public abstract int InitialDamage{get;}
+    public abstract float InitialSpeed{get;}
+    public abstract float InitialSize{get;}
+    public virtual bool IsWallPiercingEnabled => false;
+    public virtual int InitialPiercesLeft => 1;
     public int damage;
-    public abstract float Speed{get;}
-    public abstract float Size{get;}
+    public float speed;
+    public float size;
+    public int piercesLeft;
+    public Projectile(){
+        damage = InitialDamage;
+        speed = InitialSpeed;
+        size = InitialSize;
+        piercesLeft = InitialPiercesLeft;
+    }
     public abstract GameObject Prefab{get;}
-    public abstract void Update();
-    public abstract void OnDestroy();
+    public virtual void Update(){}
+    public virtual void OnDestroy(){}
 }

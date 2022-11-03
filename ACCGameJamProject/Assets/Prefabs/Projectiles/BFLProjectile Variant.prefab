@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5550728424517603886, guid: 4ccb7d9b49b103e478eef1c461c7f5ab, type: 3}
       propertyPath: m_Name
-      value: BFLProjectile
+      value: BFLProjectile Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6521047848768439477, guid: 4ccb7d9b49b103e478eef1c461c7f5ab, type: 3}
       propertyPath: m_RootOrder
@@ -54,6 +54,18 @@ PrefabInstance:
     - target: {fileID: 6521047848768439477, guid: 4ccb7d9b49b103e478eef1c461c7f5ab, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7034551811081718246, guid: 4ccb7d9b49b103e478eef1c461c7f5ab, type: 3}
+      propertyPath: m_Color.b
+      value: 0.45660377
+      objectReference: {fileID: 0}
+    - target: {fileID: 7034551811081718246, guid: 4ccb7d9b49b103e478eef1c461c7f5ab, type: 3}
+      propertyPath: m_Color.g
+      value: 0.99905723
+      objectReference: {fileID: 0}
+    - target: {fileID: 7034551811081718246, guid: 4ccb7d9b49b103e478eef1c461c7f5ab, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ccb7d9b49b103e478eef1c461c7f5ab, type: 3}

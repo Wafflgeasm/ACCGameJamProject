@@ -51,6 +51,11 @@ public class PlayerScript : MonoBehaviour
         {
             Vector2 directionalVector = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
             //Instant Accel/Decel using rb, we may want to add smoothing depending on feel but this is normally a good place to start.
+            Vector2 velocity = directionalVector * Player.instance.Speed;
+            foreach (Item item in Player.instance.items)
+            {
+                item.VelocityChange(ref velocity);
+            } 
             m_RigidBody.velocity = directionalVector * Player.instance.Speed;
         }
     }
@@ -64,6 +69,11 @@ public class PlayerScript : MonoBehaviour
     }
     private void Shoot(){
         GameObject projectileGameObject = GameObject.Instantiate(weapon.Projectile.Prefab, transform.position, Quaternion.Euler(flashLightPivot.transform.up));
+        Projectile projectile = weapon.Projectile;
+        foreach (Item item in Player.instance.items)
+        {
+            item.ProjectileChange(projectile);
+        }
         projectileGameObject.GetComponent<ProjectileScript>().Init(flashLightPivot.transform.up, weapon.Projectile, gameObject.tag);
     }
 }
