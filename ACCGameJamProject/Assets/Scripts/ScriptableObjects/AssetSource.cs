@@ -16,6 +16,7 @@ public class AssetSource : ScriptableObject {
     public GameObjects gameObjects;
     [System.Serializable]
     public struct GameObjects{
+        public GameObject player;
         public GameObject ectoplasm;
         public Menus menus;
         [System.Serializable]
@@ -25,19 +26,20 @@ public class AssetSource : ScriptableObject {
         public Projectiles projectiles;
         [System.Serializable]
         public struct Projectiles{
-            public GameObject BFL;
+            public GameObject bfl;
+            public GameObject candle;
+            public GameObject ghost;
         }
         public Enemies enemies;
         [System.Serializable]
         public struct Enemies{
             public GameObject ghost;
-            public GameObject sampleEnemy;
         }
     }
     public LanguageAssets languageAssets;
     [System.Serializable]
     public struct LanguageAssets{
-        public LanguageAsset English;
+        public LanguageAsset english;
     }
     public AudioClips audioClips;
     [System.Serializable]
@@ -76,6 +78,29 @@ public class AssetSource : ScriptableObject {
             public AudioClip menuSelectSFX;
             public AudioClip menuConfirmSFX;
             public AudioClip menuBackSFX;
+        }
+    }
+    public Sprites sprites;
+    [System.Serializable]
+    public struct Sprites{
+        public Pickupables pickupables;
+        [System.Serializable]
+        public struct Pickupables{
+            public Sprite vile;
+            public Sprite ectoplasm;
+            public Sprite treasureKey;
+        }
+        public Items items;
+        [System.Serializable]
+        public struct Items{
+            public Sprite tarotCard;
+            public Sprite blackCrystal;
+            public Sprite ballerinaBox;
+            public Sprite strawDoll;
+            public Sprite littleGhostGuy;
+            public Sprite hauntedCandle;
+            public Sprite ghostlyChessboard;
+            public Sprite spellBook;
         }
     }
 }

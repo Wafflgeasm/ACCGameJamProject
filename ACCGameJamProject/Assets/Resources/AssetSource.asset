@@ -13,16 +13,22 @@ MonoBehaviour:
   m_Name: AssetSource
   m_EditorClassIdentifier: 
   gameObjects:
+<<<<<<< Updated upstream
     ectoplasm: {fileID: 0}
+=======
+    player: {fileID: 139921854561265511, guid: 57c98c2c90fc10246890115608828037, type: 3}
+    ectoplasm: {fileID: 1681606864914746646, guid: f82ddb3bacc982c4ea33eaee34bf3daf, type: 3}
+>>>>>>> Stashed changes
     menus:
       mainMenu: {fileID: 3701507192107082372, guid: 030f3b55c76ea7842b5b660f632333bb, type: 3}
     projectiles:
-      BFL: {fileID: 5550728424517603886, guid: 4ccb7d9b49b103e478eef1c461c7f5ab, type: 3}
+      bfl: {fileID: 8135953305110058117, guid: 569ecc6562550a74c86cb5f1e1fca8a7, type: 3}
+      candle: {fileID: 438906306935935158, guid: 2fab6081d4828fe48960f88bf09c9fe4, type: 3}
+      ghost: {fileID: 7359330077568960617, guid: b41eba4ba0353e84f9b38a4a18638417, type: 3}
     enemies:
-      ghost: {fileID: 0}
-      sampleEnemy: {fileID: 0}
+      ghost: {fileID: 4413738676316293804, guid: c9cada30360e2064e8a905339f1a93fa, type: 3}
   languageAssets:
-    English: {fileID: 11400000, guid: 8a48078554cece74aa6d170186e5884a, type: 2}
+    english: {fileID: 11400000, guid: 8a48078554cece74aa6d170186e5884a, type: 2}
   audioClips:
     sampleClip: {fileID: 0}
     sfx:
@@ -63,3 +69,17 @@ MonoBehaviour:
       menuSelectSFX: {fileID: 8300000, guid: 5401c5a7b1f15694f8eec9ddc8f4293c, type: 3}
       menuConfirmSFX: {fileID: 8300000, guid: 20ef4ba497c57c94989abc6656baed90, type: 3}
       menuBackSFX: {fileID: 8300000, guid: 1feb0d726c06d9649a00e21c2d7ea0c3, type: 3}
+  sprites:
+    pickupables:
+      vile: {fileID: 0}
+      ectoplasm: {fileID: 0}
+      treasureKey: {fileID: 0}
+    items:
+      tarotCard: {fileID: 0}
+      blackCrystal: {fileID: 0}
+      ballerinaBox: {fileID: 0}
+      strawDoll: {fileID: 0}
+      littleGhostGuy: {fileID: 0}
+      hauntedCandle: {fileID: 0}
+      ghostlyChessboard: {fileID: 0}
+      spellBook: {fileID: 0}

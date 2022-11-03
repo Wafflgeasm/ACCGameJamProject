@@ -2,15 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EctoplasmScript : MonoBehaviour
+public class PickupableScript : MonoBehaviour
 {
+    public static List<PickupableScript> all;
+    private const float TIME_TO_REVERSE_DIRECTION = 0.75f;
     private bool isFloatingUp;
     private float timeFloating;
-    public float floatSpeed;
-    private const float TIME_TO_REVERSE_DIRECTION = 0.75f;
-    public int ectoplasmCount;
-    public void Init(int ectoplasmCount){
-        this.ectoplasmCount = ectoplasmCount;
+    private float floatSpeed = 0.85f;
+    public Pickupable pickupable;
+    public void Init(Pickupable pickupable){
+        all.Add(this);
+        this.pickupable = pickupable;
         StartCoroutine(ChangeDirection());
     }
 
@@ -29,7 +31,9 @@ public class EctoplasmScript : MonoBehaviour
         }
     }
     private void OnTriggerEnter2D(Collider2D other) {
+        if (other.tag != "Player") return;
+        all.Remove(this);
+        pickupable.OnPickup();
         GameObject.Destroy(gameObject);
-        GameManager.GainEctoplasm(ectoplasmCount);
     }
 }
